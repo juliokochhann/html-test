@@ -1,5 +1,8 @@
 let button = document.querySelector('button');
 
 button.onclick = function() {
-    alert('Hey!');
+    let message = 'Hey!';
+
+    alert(message);
+    console.log(message);
 }
